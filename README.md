@@ -15,7 +15,7 @@ We will cover various methodologies for transforming ECG data into machine-reada
 ### Project Components
 
 1. Setup: Importing Libraries and Loading Data: Getting all the necessary tools and data ready.
-2. Exploratory Data Visualization: Understanding the data through visual analysis.\
+2. Exploratory Data Visualization: Understanding the data through visual analysis.
 3. Preprocessing the Data: Preparing the data for modeling.
 4. Basis Spline (B-Spline) Approach: Using B-Splines for dimensionality reduction.
 5. Finding Optimal Number of Knots: Determining the best number of knots for B-Splines.
