@@ -20,7 +20,7 @@ We will cover various methodologies for transforming ECG data into machine-reada
 4. Basis Spline (B-Spline) Approach: Using B-Splines for dimensionality reduction.
 5. Finding Optimal Number of Knots: Determining the best number of knots for B-Splines.
 6. Fitting Model with Optimal Knots: Training a model with the optimal B-Spline configuration.
-7. Functional Principal Component Analysis (FPCA): Using FPCA to further reduce dimensionality and improve classification accuracy.
+7. Functional Principal Component Analysis (FPCA): Using FPCA to further reduce dimensionality.
 8. Observations / Results: Analyzing the model performance and drawing insights.
 
 ### Data Description
