@@ -20,7 +20,7 @@ We will cover various methodologies for transforming ECG data into machine-reada
 4. Basis Spline (B-Spline) Approach: Using B-Splines for dimensionality reduction.
 5. Finding Optimal Number of Knots: Determining the best number of knots for B-Splines.
 6. Fitting Model with Optimal Knots: Training a model with the optimal B-Spline configuration.
-7. Functional Principal Component Analysis (FPCA): Using FPCA to further reduce dimensionality.
+7. Functional Principal Component Analysis (FPCA): Alternatively using FPCA to reduce dimensionality.
 8. Observations / Results: Analyzing the model performance and drawing insights.
 
 ### Data Description
@@ -61,7 +61,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn scikit-fda
   - Train a Support Vector Classifier (SVC) using the optimal B-Spline configuration.
   - Evaluate the model’s performance using various metrics.
 7. Functional Principal Component Analysis (FPCA):
-  - Apply FPCA to further reduce the dimensionality of the data.
+  - Apply FPCA to reduce the dimensionality of the data.
   - Compute the principal components and use them to train the model.
   - Assess the model’s performance.
 8. Observations / Results:
