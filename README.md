@@ -4,7 +4,7 @@
 
 Hello, fellow Data Scientists! Are you ready to delve into the world of ECG data and predictive modeling? This project focuses on dimensionality reduction techniques for continuous functions, particularly for ECG data. Our goal is to detect heart abnormalities, a crucial task for early detection of heart diseases.
 
-We will cover various methodologies for transforming ECG data into machine-readable formats, making it suitable for classification tasks. This was an assignment  from [Professor Kamran Paynabar’s High-Dimensional Data Analytics class](#references) at Georgia Institute of Technology, so all credits go to his lectures. I gained a lot of knowledge from this material, and wanted to showcase it to you all as well!
+We will cover various methodologies for transforming ECG data into machine-readable formats, making it suitable for classification tasks. This was an assignment  from [Professor Kamran Paynabar’s High-Dimensional Data Analytics class](#references) at Georgia Institute of Technology, so all credits go to his lectures. I've expanded on his assignment for multiclass modeling of ECG data to understand how this approach can be translated for variations of heart signals. I gained a lot of knowledge from this material, and wanted to showcase it to you all as well!
 
 ### Key Objectives
 
