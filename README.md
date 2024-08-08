@@ -2,15 +2,15 @@
 
 ### Project Overview
 
-Hello, fellow Data Scientists! Are you ready to delve into the world of ECG data and predictive modeling? This project focuses on dimensionality reduction techniques for continuous functions, particularly for ECG data. Our goal is to detect heart abnormalities, a crucial task for early detection of heart diseases.
+Hello, fellow Data Scientists! Are you ready to delve into the world of ECG data and predictive modeling? This project focuses on dimensionality reduction techniques for continuous functions, particularly for ECG data. Our goal is to detect heart signal variations, a crucial task for early detection of heart diseases.
 
-We will cover various methodologies for transforming ECG data into machine-readable formats, making it suitable for classification tasks. This was an assignment  from [Professor Kamran Paynabar’s High-Dimensional Data Analytics class](#references) at Georgia Institute of Technology, so all credits go to his lectures. I've expanded on his assignment for multiclass modeling of ECG data to understand how this approach can be translated for variations of heart signals. I gained a lot of knowledge from this material, and wanted to showcase it to you all as well!
+We will cover various methodologies for transforming ECG data into machine-readable formats, making it suitable for classification tasks. This was an assignment  from [Professor Kamran Paynabar’s High-Dimensional Data Analytics class](#references) at Georgia Institute of Technology, so all credits go to his lectures. I've expanded on his assignment for multiclass modeling of ECG data to understand how this approach can be translated for variations of heart signals (rather than binary outputs). I gained a lot of knowledge from this material, and wanted to showcase it to you all as well!
 
 ### Key Objectives
 
 1. How can we effectively reduce the dimensionality of ECG data?
 2. How do different classification models perform on ECG data?
-3. What insights can we gain about heart abnormalities from our models?
+3. What insights can we gain about heart signals from our models?
 
 ### Project Components
 
@@ -67,8 +67,8 @@ pip install numpy pandas matplotlib seaborn scikit-learn scikit-fda
   - Compute the principal components and use them to train the model.
   - Assess the model’s performance.
 8. Observations / Results:
-  - Analyze the accuracy, precision, recall, and other metrics of the models.
-  - Compare the performance of B-Spline and FPCA approaches.
+  - Analyze the performance metrics of the models.
+  - Compare B-Spline and FPCA approaches.
   - Discuss the implications for detecting heart abnormalities.
 
 ### Conclusion
@@ -77,6 +77,10 @@ By the end of this project, you will have a deep understanding of how to preproc
 
 Happy learning!
 
+
+### Disclaimer and Acknowledgments
+
+This project is inspired by the teachings of [Professor Kamran Paynabar](#references) from his High-Dimensional Data Analytics class at Georgia Institute of Technology. The implementation in a multiclass setting, dataset used, and interpretation are my original work and not directly taken from the course materials.
 
 ### References
 
